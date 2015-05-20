@@ -37,11 +37,11 @@ function asrv_plugin_action_links($links, $plugin_file) {
 	static $plugin;
 
 	if (!isset($plugin)) {
-		$plugin = "appstore-review/appstore-review.php";
+		$plugin = "appstore-review-viewer/appstore-review.php";
 	}
 
 	if ($plugin == $plugin_file) {
-		$settings_link = '<a href="options-general.php?page=appstore-review/appstore-review-admin.php">Settings</a>';
+		$settings_link = '<a href="options-general.php?page=appstore-review-viewer/appstore-review-admin.php">Settings</a>';
         	array_unshift($links, $settings_link);
         }
 
