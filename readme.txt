@@ -38,6 +38,8 @@ You may not have any review for the app in the country you selected. If you have
 
 == Screenshots ==
 
+1.
+2.
 
 == Changelog ==
 
