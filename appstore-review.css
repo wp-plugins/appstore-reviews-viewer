@@ -1,0 +1,53 @@
+#asrv_list {
+  	overflow: hidden;
+  	width: 600px;
+  	background: white;
+  	border: 1px solid grey;
+  	border-radius: 8px;
+  	box-shadow: 10px 10px 10px grey;
+  	margin: 20px;
+}
+
+#asrv_list ul {
+	list-style: none;
+}
+
+.asrv_review {
+	display: none;
+}
+
+.asrv_app {
+	float: left;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.asrv_app_icon {
+	width: 55px;
+	height: 55px;
+	border-radius: 8px;
+}
+
+.asrv_info {
+	float: left;
+	width: 500px;
+	padding-left: 15px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.asrv_title {
+	font-weight: bold;
+  	color: #266E9E;
+  	font-size: 16px;
+}
+
+.asrv_rating {
+	font-size: 18px;
+}
+
+.asrv_extra {
+	font-style: italic;
+	font-size: 12px;
+	color: #bbbbbb;
+}
