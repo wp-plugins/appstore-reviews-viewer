@@ -4,7 +4,7 @@ Donate link: http://bit.ly/1LbC1U9
 Tags: iOS, App Store, iTunes, apps, appstore, iphone, ipad, customer, reviews, ratings, review, rating, store, country, comment
 Requires at least: 3.1
 Tested up to: 4.2
-Stable tag: 1.0.3
+Stable tag: 1.0.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -42,6 +42,9 @@ You may not have any review for the app in the country you selected. If you have
 2. Another example
 
 == Changelog ==
+
+= 1.0.4 =
+Small fix
 
 = 1.0.3 =
 Fixed an issue with the cache directory not being created
