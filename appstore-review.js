@@ -12,5 +12,9 @@ jQuery(document).ready(function() {
 			.fadeOut(1000, showNextSlide);
 	}
 	
-	showNextSlide();
+	if (slides.length == 1) {
+		slides.show();
+	} else {
+		showNextSlide();
+	}
 });
