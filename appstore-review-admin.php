@@ -2,9 +2,6 @@
 
 /* Activation & Uninstall */
 
-register_activation_hook(ASRV_BASE_DIRECTORY."/appstore-review.php", 'asrv_activate');
-register_uninstall_hook(ASRV_BASE_DIRECTORY."/appstore-review.php", 'asrv_uninstall');
-
 function asrv_activate() {
 
 	//Default params

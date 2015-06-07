@@ -34,6 +34,8 @@ define("ASRV_CACHE_DIR", ASRV_BASE_DIRECTORY."/cache/");
 
 // Admin
 include_once("appstore-review-admin.php");
+register_activation_hook(__FILE__, 'asrv_activate');
+register_uninstall_hook(__FILE__, 'asrv_uninstall');
 
 // AppStore URL
 define('ASRV_APPSTORE_URL', 'http://itunes.apple.com/{country}/rss/customerreviews/id={id}/json');
