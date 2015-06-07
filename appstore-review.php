@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: AppStore Reviews Viewer
-Version: 1.0.2
+Version: 1.0.3
 Plugin URI: http://www.gilthonwe.com
 Description: Adds a shortcode so that you can display reviews and ratings of any app from the AppStore. Specify your AppId, the country where you want to see the reviews from and the minimum number of stars for the reviews.
 Author: Gilthonwe Apps
@@ -26,7 +26,7 @@ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 */
 
 // Version
-define("ASRV_VERSION", "1.0.2");
+define("ASRV_VERSION", "1.0.3");
 
 // URLs
 define("ASRV_BASE_DIRECTORY", WP_PLUGIN_DIR."/".basename(dirname(__FILE__)));

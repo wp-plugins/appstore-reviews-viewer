@@ -9,7 +9,6 @@ function asrv_activate() {
 
 	//Default params
 	$options = array(
-		"version"	 => ASRV_VERSION,
 		"cache" 	 => 48,
 		"defaultCountry" => "us",
 		"defaultStars" 	 => 5,
@@ -18,10 +17,7 @@ function asrv_activate() {
 	add_option("asrv_options", $options);
 	
 	//Cache directory
-	if (!file_exists(ASRV_CACHE_DIR)) {
-	        mkdir(ASRV_CACHE_DIR);     
-	        chmod(ASRV_CACHE_DIR, 0777);
-    	}
+	mkdir(ASRV_CACHE_DIR, 0777);
 }
 
 function asrv_uninstall() {
